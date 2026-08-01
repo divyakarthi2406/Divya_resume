@@ -1,0 +1,111 @@
+/* Selectors */
+/* Types of selectors */
+
+/* 1. HTML tags - No special char. needed
+  2. Class names - DOT (.) will be required as a prefix
+  3. Id names - HASH (#) will be required as a prefix
+*/
+
+/* CSS box model */
+
+body{
+  background-color: #2ea9ea;
+}
+
+header {
+  text-align: center;
+  border: 10px solid #2326E8;
+}
+
+nav {
+  background-color: #2c3e50;
+  
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 10px;
+  
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #28d1f7;
+  border: 2px;
+  border-style: solid;
+  border-color: #28f7e7;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 4px;
+  
+}
+
+form {
+  margin-top: 18px;
+}
+.section-style{
+  background-color: #fff;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 5px;
+}
+
+#al {
+  display: none;
+}
+
+#um{
+  display: none;
+}
+
+#toggle-theme{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  animation: float 3s infinite;
+}
+
+.section-style h2 {
+  color: #1279f0;
+  border-bottom: 2px solid #3498db;
+  padding: 2px;
+  margin: 2px;
+}
+
+.dark-theme{
+  background-color: #34495c;
+}
+
+.dark-theme header{
+  background-color: #34495e;
+  color: #fff;
+  border-top: 10px solid #34495e;
+  border-left: 10px solid #34495e;
+  border-right: 10px solid #34495e;
+}
+
+.dark-theme nav{
+  background-color: #34495c;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(+20px);
+  }
+}
+
+
